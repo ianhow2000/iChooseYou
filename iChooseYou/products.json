@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "CHARMANDER",
+        "price": 300.00,
+        "image": "images/charmander.png",
+        "href": "charmander.html"
+    },
+    {
+        "id": 2,
+        "name": "SQUIRTLE",
+        "price": 280.00,
+        "image": "images/squirtle.png",
+        "href": "squirtle.html"
+    },
+    {
+        "id": 3,
+        "name": "BULBASAUR",
+        "price": 250.00,
+        "image": "images/bulbasaur.png",
+        "href": "bulbasaur.html"
+    },
+    {
+        "id": 4,
+        "name": "CYNDAQUIL",
+        "price": 280.00,
+        "image": "images/cyndaquil.png",
+        "href": "cyndaquil.html"
+    },
+    {
+        "id": 5,
+        "name": "TOTODILE",
+        "price": 300.00,
+        "image": "images/totodile.png",
+        "href": "totodile.html"
+    },
+    {
+        "id": 6,
+        "name": "CHIKORITA",
+        "price": 250.00,
+        "image": "images/chikorita.png",
+        "href": "chikorita.html"
+    },
+    {
+        "id": 7,
+        "name": "TORCHIC",
+        "price": 280.00,
+        "image": "images/torchic.png",
+        "href": "torchic.html"
+    },
+    {
+        "id": 8,
+        "name": "MUDKIP",
+        "price": 250.00,
+        "image": "images/mudkip.png",
+        "href": "mudkip.html"
+    },
+    {
+        "id": 9,
+        "name": "TREECKO",
+        "price": 280.00,
+        "image": "images/treecko.png",
+        "href": "treecko.html"
+    },
+    {
+        "id": 10,
+        "name": "CHIMCHAR",
+        "price": 300.00,
+        "image": "images/chimchar.png",
+        "href": "chimchar.html"
+    },
+    {
+        "id": 11,
+        "name": "PIPLUP",
+        "price": 250.00,
+        "image": "images/piplup.png",
+        "href": "piplup.html"
+    },
+    {
+        "id": 12,
+        "name": "TURTWIG",
+        "price": 250.00,
+        "image": "images/turtwig.png",
+        "href": "turtwig.html"
+    },
+    {
+        "id": 13,
+        "name": "TEPIG",
+        "price": 250.00,
+        "image": "images/tepig.png",
+        "href": "tepig.html"
+    },
+    {
+        "id": 14,
+        "name": "OSHAWOTT",
+        "price": 280.00,
+        "image": "images/oshawott.png",
+        "href": "oshawott.html"
+    },
+    {
+        "id": 15,
+        "name": "SNIVY",
+        "price": 250.00,
+        "image": "images/snivy.png",
+        "href": "snivy.html"
+    },
+    {
+        "id": 16,
+        "name": "FENNEKIN",
+        "price": 280.00,
+        "image": "images/fennekin.png",
+        "href": "fennekin.html"
+    },
+    {
+        "id": 17,
+        "name": "FROAKIE",
+        "price": 300.00,
+        "image": "images/froakie.png",
+        "href": "froakie.html"
+    },
+    {
+        "id": 18,
+        "name": "CHESPIN",
+        "price": 250.00,
+        "image": "images/chespin.png",
+        "href": "chespin.html"
+    }
+]

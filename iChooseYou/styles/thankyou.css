@@ -1,0 +1,42 @@
+.thank-you-description{
+    margin: auto;
+    font-family: cursive;
+    display: grid;
+    justify-content: center;
+}
+
+.thank-you-description .thank-you-img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.thank-you-description .thank-you-img{
+    width: 350px;
+    height:395px
+}
+
+.thank-you-description span{
+    text-align: center;
+}
+
+.post-purchase-links{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    column-gap: 50px;
+}
+
+.post-purchase-links a{
+    width: fit-content;
+    margin: auto;
+}
+
+.post-purchase-links a img{
+    height: 120px;
+    width: 100px;
+}
+
+footer{
+    height: 50px;
+}

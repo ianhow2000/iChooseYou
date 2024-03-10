@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/checkout.css">
+        <title>Checkout</title>
+    </head>
+
+    <body>
+        <div class="icon-container">
+            <div class="title-container">
+                <a href="index.html">
+                    <img src = "images/title.png" alt="icon" class="icon">
+                </a>
+            </div>
+        </div>
+
+        <div class="checkout-text-container">
+            <h1>CHECKOUT</h1>
+            </div>
+
+        <div class="checkout-container">
+            <div class="products-container">
+                <!-- <div class="products">
+                    <div class="product-img">
+                        <img src="images/charmander.png">
+                    </div>
+                    <div class="product-name">
+                        CHARMANDER
+                    </div>
+                    <div class="product-quantity">
+                        x1
+                    </div>
+                    <div class="product-price">
+                        rm300
+                    </div>
+                </div> -->
+            </div>
+            <div class="customer-details-container">
+                <h2>Your Details</h2>
+                <form class="details-form" action="thankyou.html">
+                    <input type="text" placeholder="Name*" required/>
+                    <input type="email" placeholder="E-Mail*"required="true"/>
+                    <input type="tel" inputmode="numeric" maxlength="10" placeholder="Phone.No*" required="true"/>
+
+                    <hr>
+                    <h2>Shipping Details</h2>
+                    <input type="text" placeholder="Address*" required/>
+                    <input type="text" placeholder="Address line 2" required/>
+                    <input type="text" inputmode="numeric" maxlength="5" placeholder="Postal Code*" required/>
+                    <input type="text" placeholder="City*" required/>
+                    <input type="text" placeholder="State*" required/>
+
+                    <hr>
+                    <h2>Payment Details</h2>
+                    <input type="text" placeholder="First Name*" required/>
+                    <input type="text" placeholder="Last Name*" required/>
+                    <input type="text" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="16" placeholder="Card.No*"/>
+                    <input type="text" inputmode="numeric" maxlength="4" placeholder="Expiry Date*" required/>
+                    <input type="text" inputmode="numeric" maxlength="3" placeholder="Cvv*" required/>
+
+                    <hr>
+                    <div class="total-price">
+                        <span>Total: rm</span>
+                        <span>0</span>
+                        <div class="pay-now-button">
+                            <button type="submit">Pay Now</button>
+                        </div>
+                    </div>
+                </form>
+            
+
+
+            </div>
+        </div>
+        
+    <script src="js/checkout.js"></script>
+    </body>
+</html>

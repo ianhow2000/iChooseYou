@@ -1,0 +1,29 @@
+.contactus{
+    margin-top: 50px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.social-links{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    justify-content: center;
+    gap: 25px
+}
+
+.social-links a{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.social-links a:hover{
+    text-decoration: underline;
+}
+
+.social-links a img{
+    max-width: 100%;
+}

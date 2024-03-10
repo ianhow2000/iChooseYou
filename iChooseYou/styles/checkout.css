@@ -1,0 +1,109 @@
+.checkout-text-container{
+    width: 50%;
+    margin: auto;
+}
+
+.checkout-text-container h1{
+    font-family: cursive;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 50px;
+}
+
+.checkout-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+.checkout-container .products-container{
+    background-color: #fff8e7;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px #666;
+    padding: 20px;
+}
+
+.checkout-container .products-container .products img{
+    width: 100%;
+}
+
+.checkout-container .products-container .products{
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+
+.customer-details-container{
+    width: 300px;
+    background-color: #fff8e7;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px #666;
+    padding: 20px
+}
+
+.customer-details-container h2{
+    font-family: cursive;
+    height:fit-content;
+}
+
+.checkout-container .products-container .products:nth-child(even){
+    background-color: #c8ad7f;
+}
+
+.customer-details-container .details-form{
+    display: grid;
+    gap:10px;
+}
+
+.customer-details-container .details-form input{
+    height: 25px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #666;
+    border-radius: 5px;
+}
+
+.customer-details-container .details-form hr{
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.customer-details-container .total-price{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 100px 80px 120px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: cursive;
+    align-items: center;
+}
+
+.customer-details-container .total-price .pay-now-button{
+    display: flex;
+    justify-content: right;
+}
+
+.customer-details-container .total-price .pay-now-button button{
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #16161D;
+    color: white;
+}
+
+.customer-details-container .total-price .pay-now-button button:hover{
+    background-color: black;
+}
